@@ -1,0 +1,340 @@
+h1{ font-family: Trebuchet MS;  
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
+    color: #a4c639; 
+}
+h2{ font-family: Trebuchet MS;
+  background-color: 
+}
+
+p {
+  font-family: candara;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    font-family: Arial;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+li a:hover:not(.active) {
+   background-color: #000000;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.green{
+  color: #a4c639;
+}
+.active {
+    background-color: #a4c639;
+}
+
+img.androiddude {
+    max-width: 100%;
+    height: auto;
+    width: 73px; 
+    height: 139px;
+    position: absolute;
+    left: 1847px;
+    top: 0px;
+    }
+img.androidlogo {
+     max-width: 100%;
+     height: auto;
+     width: 140px;
+     height: 28px;
+     position: absolute;
+     left: 1710px;
+     top: 75px; 
+   }
+   img.subwayreclame {
+     max-width: 100%;
+     height: auto;
+     width: 156px;
+     height: 221px;
+     position: absolute;
+     left: 1200px;
+     top: 210px;
+     padding: 1px;
+     border: 1px solid #021a40;
+     background-color: #a4c639;
+     
+   }
+
+   img.burgerkingreclame {
+     max-width: 100%;
+     height: auto;
+     width: 206px; 
+     height: 292px;
+     position: absolute;
+     left: 1200px;
+     top: 480px;
+     padding: 1px;
+     border: 1px solid #021a40;
+     background-color: #a4c639;
+     
+   }
+
+   img.mcdonaldsreclame {
+    max-width: 100%;
+     height: auto;
+     width: 350px;
+     height: 180px;
+     position: absolute;
+     left: 1200px;
+     top: 830px;
+     padding: 1px;
+     border: 1px solid #021a40;
+     background-color: #a4c639;
+     
+   }
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+   overflow-y: scroll;
+   overflow-x: hidden;
+   } 
+
+ .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 900px;
+    margin-left: 18%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 1750px;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .container3 {
+    height: 1325px;
+    margin-top: 3%;
+  }
+  .container4 {
+   height: 1075px;
+   margin-top: 3%;
+  }
+
+  .container5 {
+   height: 1040px;
+   margin-top: 3%;
+  }
+
+  .container6 {
+    height: 1345px;
+   margin-top: 3%;
+  }
+
+  .flex-item {
+    margin: auto;
+    width: 325px;
+    height: 400px;
+  }
+  .flex-item2 {
+    margin: auto;
+    width: 325px;
+    height: 400px;
+  }
+  .item3 {
+    margin: auto;
+    width: 600px;
+    height: 500px;
+  }
+  .item4 {
+    margin: auto;
+    width: 600px;
+    height: 500px;
+  }
+  .item5 {
+    margin: auto;
+    width: 600px;
+    height: 500px;
+  }
+  .item6{
+    margin: auto;
+    width: 600px;
+    height: 500px;
+  }
+
+  #android1 {
+    width: 320px;
+    height: 180px;
+    border-radius: 20px;
+  }
+  #android1a {
+    width: 600px;
+    height: 320px;
+    border-radius: 20px; 
+  }
+  #android1b {
+   width: 580px;
+   height: 360px;
+   border-radius: 20px;
+  }
+  #android1c {
+    width: 591px;
+    height: 365px;
+    border-radius: 20px;
+  }
+  #android1d {
+    width: 591px;
+    height: 365px;
+    border-radius: 20px;
+  }
+
+  #android2 {
+    width: 320px;
+    height: 180px;
+    border-radius: 20px;
+  }
+
+  #android3 {
+    width: 320px;
+    height: 180px;
+    border-radius: 20px;
+  }
+
+  #android4 {
+    width: 320px;
+    height: 180px;
+    border-radius: 20px; 
+  }
+
+  article a {
+    font-family: Trebuchet MS;
+
+  }
+
+article a:link {
+    text-decoration: none;
+}
+
+article a:visited {
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+article a:active {
+    text-decoration: underline;
+}
+
+.site-footer {
+  width: 1920px;
+  height: 120px;
+  background-color: #b3b3b3;
+  text-align: center;
+  font-family: Trebuchet MS;
+
+}
+
+.hr {
+  position: absolute;
+  top: 1120px;
+  left: 480px;
+  background: #a4c639; 
+  width: 50%; 
+  height: 1px;
+}
+.hr2 {
+position: absolute;
+  top: 1970px;
+  left: 480px;
+  background: #a4c639; 
+  width: 50%; 
+  height: 1px;
+}
+.hr3 {
+  position: absolute;
+  top: 1526px;
+  left: 480px;
+  background: #a4c639; 
+  width: 50%; 
+  height: 1px;
+ }
+ .hr4 {
+  position: absolute;
+  top: 1276px;
+  left: 480px;
+  background: #a4c639; 
+  width: 50%; 
+  height: 1px;
+ }
+
+ .hr5 {
+  position: absolute;
+  top: 1241px;
+  left: 480px;
+  background: #a4c639; 
+  width: 50%; 
+  height: 1px;
+ }
+
+ .hr6 {
+  position: absolute;
+  top: 1546px;
+  left: 480px;
+  background: #a4c639; 
+  width: 50%; 
+  height: 1px;
+ }
+ .hr7 {
+  position: absolute;
+  top: 908px;
+  left: 480px;
+  background: #a4c639; 
+  width: 50%; 
+  height: 1px;
+ }
+
+ .over {
+  text-align: center;
+ }
+ img.androidbig {
+    max-width: 100%;
+    height: auto;
+    width: 500px; 
+    height: 587px;
+ }
